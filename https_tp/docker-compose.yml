@@ -38,8 +38,8 @@ services:
 
   app:
     build:
-      context: .
-      dockerfile: Dockerfile
+      context: ./app
+      dockerfile: dockerfile
     environment:
       DB_HOST: db
     depends_on:
