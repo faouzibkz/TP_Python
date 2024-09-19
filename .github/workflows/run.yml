@@ -27,7 +27,7 @@ jobs:
       - name: Start Backend Server
         run: |
           cd ./app
-          uvicorn app.main:app --reload & 
+          uvicorn main:app --reload & 
 
       #add some test
       - name: Test with pytest
